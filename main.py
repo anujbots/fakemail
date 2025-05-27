@@ -10,7 +10,7 @@ from telegram.ext import Updater, CommandHandler, CallbackContext
 BOT_TOKEN = '6894639909:AAHulDY0fYlHbG36ugSmogoONLbeVVMSQ2c'
 CPANEL_USER = 'anujxyzs'
 CPANEL_PASS = '15f7v:jtA]CKA4'
-CPANEL_HOST = 'anyjbots.xyz'  # without https
+CPANEL_HOST = 'anujbots.xyz'  # without https
 EMAIL_DOMAIN = 'anujbots.xyz'
 EMAIL_PASSWORD = 'anujbots10anuj'
 
