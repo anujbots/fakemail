@@ -48,7 +48,7 @@ def get_email_messages(email):
         inbox_url = f"https://{CPANEL_HOST}:2096/3rdparty/roundcube/?_task=mail&_mbox=INBOX"
         inbox_page = session.get(inbox_url, verify=False)
         soup = BeautifulSoup(inbox_page.text, "html.parser")
-        subjects = soup.find_all("span", class_="subject")
+        subjects = soup.select("table#messagelist tbody tr td.subject span")
 
         messages = []
         for s in subjects:
